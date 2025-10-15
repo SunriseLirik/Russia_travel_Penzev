@@ -27,7 +27,7 @@
 
 <div id="demo"></div>
 <h2>Демонстрация</h2><br>
-<p>Ссылка на сайт <a href="https://SunriseLirik.github.io/russian-travel/">тут</a> !</p><br>
+<p>Ссылка на сайт <a href="https://SunriseLirik.github.io/Russia_travel_Penzev/">тут</a> !</p><br>
 <img src="./images/demo_index.png" alt="Демо страницы index.html" width="900">
 
 <div id="file_structure"></div>
