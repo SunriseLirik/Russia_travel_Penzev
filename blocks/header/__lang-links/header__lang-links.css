@@ -1,0 +1,20 @@
+.header__lang-links {
+    padding: 0;
+    padding-bottom: 1px;
+    display: grid;
+    grid-template-columns: repeat(2, 30px);
+    grid-template-rows: 28px;
+    column-gap: 18px;
+    align-self: end;
+}
+
+@media screen and (max-width: 425px) {
+
+    .header__lang-links {
+        /* 320px */
+        padding-top: 14px;
+        grid-template-columns: repeat(2, 22px);
+        grid-template-rows: 20px;
+        align-self: start;
+    }
+}

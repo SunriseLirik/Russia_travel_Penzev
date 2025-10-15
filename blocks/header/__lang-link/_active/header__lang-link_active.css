@@ -1,0 +1,12 @@
+.header__lang-link_active {
+    text-decoration-line: underline;
+    text-underline-offset: 0.19em;
+}
+
+@media screen and (max-width: 425px) {
+
+    .header__lang-link_active {
+        /* 320px */
+        text-underline-offset: 0.2em;
+    }
+}

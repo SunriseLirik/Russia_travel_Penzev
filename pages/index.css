@@ -1,0 +1,65 @@
+/* Подключение стилей для всех блоков */
+
+/* подключаем код сторонних разработчиков - normalize.css */
+@import url("../vendor/normalize.css");
+
+/* подключаем шрифты - fonts.css */
+@import url("../fonts/fonts.css");
+
+/* подключаем стили блока body */
+@import url("../blocks/body/body.css");
+
+/* подключаем стили блока page */
+@import url("../blocks/page/page.css");
+
+/* подключаем стили list */
+@import url("../blocks/list/list.css");
+
+/* подключаем стили блока header */
+@import url("../blocks/header/header.css");
+@import url("../blocks/header/__image/header__image.css");
+@import url("../blocks/header/__lang-links/header__lang-links.css");
+@import url("../blocks/header/__lang-link/header__lang-link.css");
+@import url("../blocks/header/__lang-link/_active/header__lang-link_active.css");
+
+/* подключаем стили блока lead */
+@import url("../blocks/lead/lead.css");
+@import url("../blocks/lead/__title/lead__title.css");
+@import url("../blocks/lead/__subtitle/lead__subtitle.css");
+@import url("../blocks/lead/__main-illustration/lead__main-illustration.css");
+@import url("../blocks/lead/__main-illustration-image/lead__main-illustration-image.css");
+@import url("../blocks/lead/__main-illustration-caption/lead__main-illustration-caption.css");
+
+/* подключаем стили блока intro */
+@import url("../blocks/intro/intro.css");
+@import url("../blocks/intro/__title/intro__title.css");
+@import url("../blocks/intro/__text/intro__text.css");
+@import url("../blocks/intro/__list/intro__list.css");
+@import url("../blocks/intro/__span/intro__list-span.css");
+
+/* подключаем стили блока photo-grid */
+@import url("../blocks/photo-grid/photo-grid.css");
+@import url("../blocks/photo-grid/__item/photo-grid__item.css");
+
+/* подключаем стили блока places */
+@import url("../blocks/places/places.css");
+@import url("../blocks/place/place.css");
+@import url("../blocks/place/__title/place__title.css");
+@import url("../blocks/place/__image/place__image.css");
+@import url("../blocks/place/__website/place__website.css");
+@import url("../blocks/place/__website-url-heading/place__website-url-heading.css");
+@import url("../blocks/place/__website-link/place__website-link.css");
+@import url("../blocks/place/__text/place__text.css");
+@import url("../blocks/place/__text-paragraph/place__text-paragraph.css");
+
+/* подключаем стили блока cover */
+@import url("../blocks/cover/cover.css");
+@import url("../blocks/cover/__title/cover__title.css");
+@import url("../blocks/cover/__subtitle/cover__subtitle.css");
+@import url("../blocks/cover/__background/cover__background.css");
+
+/* подключаем стили блока footer */
+@import url("../blocks/footer/footer.css");
+@import url("../blocks/footer/__list/footer__links-list.css");
+@import url("../blocks/footer/__link/footer__link.css");
+@import url("../blocks/footer/__copyright/footer__copyright.css");

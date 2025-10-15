@@ -1,0 +1,13 @@
+.place__website-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.125rem; /* font-size: 18px; */
+    line-height: 1.2; /* line-height: 22px; */
+    text-decoration-line: underline;
+    color: #FFF;
+}
+
+/* стили при наведении курсора */
+.place__website-link:hover {
+    opacity: 0.8;
+}

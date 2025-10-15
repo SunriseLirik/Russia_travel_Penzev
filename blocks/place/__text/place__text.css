@@ -1,0 +1,14 @@
+.place__text {
+    padding-top: 48px;
+    display: grid;
+    grid-template-rows: max-content;
+    gap: 26px;
+}
+
+@media screen and (max-width: 425px) {
+
+    .place__text {
+        padding-top: 32px;
+        gap: 25px;
+    }
+}

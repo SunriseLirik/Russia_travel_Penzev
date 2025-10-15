@@ -1,0 +1,24 @@
+.lead__main-illustration-caption {
+    margin-top: 1px; /* margin-top: 8px; */
+    margin-bottom: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.625rem; /* font-size: 10px; */
+    line-height: 1.4; /* line-height: 14px; */
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+
+    .lead__main-illustration-caption {
+        margin-left: 24px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    .lead__main-illustration-caption {
+        margin-left: 16px;
+    }
+}

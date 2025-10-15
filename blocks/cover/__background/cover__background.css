@@ -1,0 +1,58 @@
+.cover__background {
+    width: 100%; /* width: 1184px; */
+    min-height: 740px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("../../../images/cover-trains.jpg");
+    background-size: cover;
+    background-position: center;
+    text-decoration: none;
+    color: #FFF;
+    position: relative; /* абсолютное позиционирование подложки */
+    /* порядок "слоев" в браузере: "внизу" фоновая картинка, потом подложка, а "сверху" - текст */
+    z-index: 1;
+    content: '';
+}
+
+@media screen and (max-width: 1024px) {
+
+    .cover__background {
+        min-height: 640px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .cover__background {
+        min-height: 480px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    .cover__background {
+        min-height: 200px;
+    }
+}
+
+.cover__background::before {
+    /* содержимое псевдоблока */
+    content: '';
+    /* абсолютное позиционирование, "растянуть" элемент по сторонам */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    opacity: 0.3;
+    /* анимация для свойства opacity */
+    transition: opacity 350ms ease;
+    background-color: #2A2C2F;
+}
+
+/* стили при наведении курсора */
+.cover__background:hover::before {
+    opacity: 0.8;
+}

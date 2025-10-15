@@ -1,0 +1,29 @@
+.place__website {
+    align-self: end;
+    margin-bottom: 10px;
+    text-underline-offset: 0.3em;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .place__website {
+        text-underline-offset: 0.2em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .place__website {
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 425px) {
+
+    .place__website {
+        margin-top: 32px;
+        margin-left: 16px;
+        text-underline-offset: 0.2em;
+        align-self: start;
+    }
+}
